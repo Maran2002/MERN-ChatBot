@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-image: url('./assests/bg.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-custom{
+  font-size: 3em;
+  font-weight: bold;
+  background: url('./assests/textbg.png') no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  }
+  .btn{
+    border: 2px solid rgb(208, 248, 239);
+    background-color: rgb(2 6 23);
+    color: rgb(153 246 228);
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin: 0.5rem;
+    transition: 0.2s all ease-in-out;
+    &:hover{
+        background-color: rgb(208, 248, 239);
+        color: rgb(2 6 23);
+        border-color: none;
+    }
+}
