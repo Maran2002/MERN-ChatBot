@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import speakGif2 from "./assests/speaking2.gif";
 
 const Chatbot = () => {
-  const URL = "https://mern-chat-bot-two.vercel.app";
+  const URL = ""; //Add your server URL here (backend link)
 
   const [userMessage, setUserMessage] = useState("");
   const [chatHistory, setChatHistory] = useState([]);

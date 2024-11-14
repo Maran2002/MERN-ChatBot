@@ -8,11 +8,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://maran-mern-chatbot.web.app",
-      "https://maran-mern-chatbot.firebaseapp.com",
-    ],
+    origin: [ ], //Add your origin URL (frontend link) here.
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
